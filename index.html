@@ -220,4 +220,36 @@ Contact Me
 </div>
 </div>
 
+<button id="colorBtn"> Change Background Color</button>
+
+<script>
+
+
+window.onload=function() {
+const btn=document.getElementById("colorBtn");
+btn.addEventListener("click",function() {
+// تغيير لون الخلفية
+
+
+document.body.style.backgroundColor="lightblue";
+
+
+//تغيير لون الزر نفسه
+
+btn.style.backgroundColor="orange";
+btn.style.color="white";
+btn.style.fontWeight="bold";
+
+});
+
+};
+
+</script>
+
+
+
+
+
+
+
 </body>
