@@ -10,9 +10,32 @@
 <style>
 body{
 font-family: Arial, sans-serif;
-background: #f3f4f6;
+background:  #f3f4f6;
 margin:0;
 padding: 0;
+
+}
+
+
+
+#colorBtn {
+
+padding: 10px 20px;
+background-color: gray;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
+
+
+
+}
+
+#colorBtn:hover{
+
+background-color: black;
+transform: scale(1.1);
 
 }
 
@@ -144,7 +167,7 @@ font-size: 14px;
 
 <body>
 
-
+<h1>Test123</h1>
 <div class="card">
 
 
@@ -225,8 +248,7 @@ Contact Me
 <script>
 
 
-window.onload=function() {
-const btn=document.getElementById("colorBtn");
+
 btn.addEventListener("click",function() {
 // تغيير لون الخلفية
 
@@ -234,11 +256,7 @@ btn.addEventListener("click",function() {
 document.body.style.backgroundColor="lightblue";
 
 
-//تغيير لون الزر نفسه
 
-btn.style.backgroundColor="orange";
-btn.style.color="white";
-btn.style.fontWeight="bold";
 
 });
 
